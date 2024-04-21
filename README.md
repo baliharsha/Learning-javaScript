@@ -1,4 +1,4 @@
-// even OR odd--------------------ques--------------
+// even OR odd
 let num = 6;
 if(num % 2 == 0){
     console.log("even")
@@ -6,7 +6,7 @@ if(num % 2 == 0){
     console.log("false")
 
 }
-// -------------ques---------------
+// zero, pos, neg
 let number = 88;
 if(number === 0){
     console.log("zero")
@@ -28,14 +28,14 @@ if(number === 0){
     // console.log("5 * " + num  + " = " + 5 * num);   
 // }
 
-// pass by Value --------- a copy of the primitive value is created and passed to the function or assigned to a variable. any changes made to the copy do not affect the original vale.
+// pass by Value --->> a copy of the primitive value is created and passed to the function or assigned to a variable. any changes made to the copy do not affect the original value.
+
 let a = 10
 const modifyValue = (x) => (x = 20)
-
 console.log(modifyValue(a));
 console.log(a);
 
-// pass by reference -------- a reference to the memory location of the object is passed to the function or assigned to a variable. any change made to the object through this reference will affect the original object.
+// pass by reference ---->> a reference to the memory location of the object is passed to the function or assigned to a variable. any change made to the object through this reference will affect the original object.
 
 let obj = { id: 5, name: "hey" };
 let obj1 = obj;
