@@ -1,4 +1,4 @@
-// even OR odd
+// even OR odd--------------
 let num = 6;
 if(num % 2 == 0){
     console.log("even")
@@ -6,7 +6,7 @@ if(num % 2 == 0){
     console.log("false")
 
 }
-// zero, pos, neg
+// zero, pos, neg-------------
 let number = 88;
 if(number === 0){
     console.log("zero")
